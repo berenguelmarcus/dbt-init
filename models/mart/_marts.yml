@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fct_producao_veiculos
+    description: "Tabela final consolidada com dados de produção por modelo VW."
+    columns:
+      - name: registro_id
+        tests:
+          - unique
+          - not_null
+      - name: modelo_nome
+        description: "Nome comercial do veículo em minúsculas."

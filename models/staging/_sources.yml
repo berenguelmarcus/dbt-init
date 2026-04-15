@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: raw_vw
+    database: dbt-init-493416
+    schema: estudos_vw
+    tables:
+      - name: vw_modelos
+      - name: vw_producao_mundial
+      - name: vw_motores
+      - name: vw_cores_epocas
